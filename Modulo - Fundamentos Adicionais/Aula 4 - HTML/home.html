@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <style>
+        h2{
+            color:brown;
+            font-size: 50px
+        }
+    </style>
+</head>
+<body>
+    <h1 style="color:green; font-size: 100px">
+        Página Principal
+    </h1>
+    <br>
+    <h2>Seja bem vindo!!!! {{.Nome}}</h2>
+    <br>
+    <button id="botao">Clique em mim!</button>
+    <script>
+        var botao = document.getElementById("botao")
+        botao.onclick = function(){
+            alert("Você clicou no botão hehehe")
+        }
+    </script>
+    
+</body>
+</html>
